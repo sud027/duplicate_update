@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+	<!-- Adds all assets in Odoo -->
+        <template id="duplicate_update.assets_backend" name="duplicate_feature_update" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/duplicate_update/static/src/js/override_form.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>
